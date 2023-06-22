@@ -3,10 +3,12 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="flex min-h-screen min-w-full">
-      {" "}
-      <Navbar />
-      {/* <Footer /> */}
+    <div className="h-screen w-screen bg-green-300">
+      <div className="flex h-full">
+        {" "}
+        <Navbar />
+        <Footer />
+      </div>
     </div>
   );
 }
