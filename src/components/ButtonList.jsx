@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ButtonList = () => {
   return (
-    <div className="flex w-full flex-col items-start gap-4 pb-6 ps-12 pt-8">
+    <div className="flex w-full flex-col items-start gap-5 pb-6 ps-12 pt-8">
       <h1
         style={{ fontFamily: "Poppins" }}
         className="pb-4 text-xl font-semibold text-slate-500"
@@ -19,7 +19,7 @@ const ButtonList = () => {
         <Button disabled />
         <Button variant={"text"} disabled />
       </div>
-      <div className="flex w-8/12 justify-between gap-16">
+      <div className="flex w-10/12 justify-between gap-16">
         <Button startIcon={Logo} />
         <Button endIcon={Logo} />
       </div>
@@ -27,6 +27,12 @@ const ButtonList = () => {
         <Button size="small" />
         <Button size="medium" />
         <Button size="large" />
+      </div>
+      <div className="flex w-full gap-6">
+        <Button color="default" />
+        <Button color="primary" />
+        <Button color="secondary" />
+        <Button color="danger" />
       </div>
     </div>
   );
