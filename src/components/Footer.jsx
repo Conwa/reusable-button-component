@@ -11,7 +11,7 @@ const Footer = () => {
         >
           Conwa
         </a>{" "}
-        - devchallenges.io
+        - devchallenges.io - 2023
       </p>
     </div>
   );

@@ -53,7 +53,6 @@ const Button = (props) => {
   } = { ...props };
 
   const labels = { ...props };
-  console.log(props.variant);
 
   const buttonStyle = `w-fit rounded-lg border-2 font-semibold `;
 

@@ -15,11 +15,11 @@ const ButtonList = () => {
       <Button variant={"outline"} />
       <Button variant={"text"} />
       <Button disableShadow />
-      <div className="flex w-8/12 justify-between gap-16">
+      <div className="flex w-10/12 items-center gap-16">
         <Button disabled />
         <Button variant={"text"} disabled />
       </div>
-      <div className="flex w-10/12 justify-between gap-16">
+      <div className="flex w-10/12 items-center gap-16">
         <Button startIcon={Logo} />
         <Button endIcon={Logo} />
       </div>
@@ -28,7 +28,7 @@ const ButtonList = () => {
         <Button size="medium" />
         <Button size="large" />
       </div>
-      <div className="flex w-full gap-6">
+      <div className="flex w-10/12 items-center gap-16">
         <Button color="default" />
         <Button color="primary" />
         <Button color="secondary" />
