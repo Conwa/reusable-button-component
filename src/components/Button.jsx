@@ -23,7 +23,7 @@ const ButtonColor = {
   primary:
     "bg-blue-600 text-white border-blue-600 hover:bg-blue-800 hover:border-blue-800",
   secondary:
-    "text-white bg-stone-500 border-stone-600 hover:bg-stone-600 hover:border-stone-700 ",
+    "text-white bg-stone-500 border-stone-500 hover:bg-stone-600 hover:border-stone-600 ",
   danger:
     "text-white bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700",
 };
@@ -31,7 +31,7 @@ const ButtonColor = {
 const ButtonColorHover = {
   default: "border-gray-400 bg-gray-400 text-slate-600",
   primary: "text-white bg-blue-800 border-blue-800",
-  secondary: "text-white bg-stone-600 border-stone-700",
+  secondary: "text-white bg-stone-600 border-stone-600",
   danger: "text-white bg-red-700 border-red-700",
 };
 
