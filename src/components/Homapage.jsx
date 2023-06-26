@@ -5,7 +5,11 @@ import Navbar from "./Navbar";
 import React from "react";
 
 const Homepage = () => {
-  const pageUrls = ["http://localhost:5173/buttons"];
+  const pageUrls = [
+    "http://localhost:5173/buttons",
+    "http://localhost:5173/inputs",
+  ];
+
   return (
     <div className="min-h-screen w-screen">
       <div className="flex h-full">
