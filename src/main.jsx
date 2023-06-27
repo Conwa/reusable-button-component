@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import ButtonView from "./routes/ButtonView.jsx";
 import Homepage from "./routes/Homapage.jsx";
+import InputView from "./routes/InputView.jsx";
 import WorkInProgress from "./routes/WorkInProgress.jsx";
 
 const router = createBrowserRouter([
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "inputs",
-        element: <WorkInProgress />,
+        element: <InputView />,
       },
       {
         path: "grid",

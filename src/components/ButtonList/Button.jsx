@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const ButtonVariant = {
   text: "bg-white hover:bg-blue-100 text-blue-500 border-0",
   outline: "border-blue-500 bg-white hover:bg-blue-100 text-blue-500",
