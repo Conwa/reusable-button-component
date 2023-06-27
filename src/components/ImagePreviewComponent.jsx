@@ -22,7 +22,7 @@ const ImagePreviewComponent = ({ urls }) => {
   }, [urls]);
 
   return (
-    <div className=" flex flex-grow flex-col items-center justify-center gap-20">
+    <div className="flex flex-grow flex-col items-center justify-center gap-20">
       <h1 className=" text-2xl font-bold">Reusable Components</h1>
       <div className="flex gap-8">
         {imagePreviews.map((el, index) => {
@@ -31,7 +31,7 @@ const ImagePreviewComponent = ({ urls }) => {
               key={index}
               className=" rounded-lg shadow-inner transition duration-500 hover:scale-105"
             >
-              <img src={el} className="h-52 w-auto p-2"></img>
+              <img src={el} className=" h-40 w-auto p-2"></img>
             </div>
           );
         })}

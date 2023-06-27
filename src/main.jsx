@@ -2,14 +2,48 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-import { BrowserRouter } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
+import ButtonView from "./routes/ButtonView.jsx";
+import Homepage from "./routes/Homapage.jsx";
+import WorkInProgress from "./routes/WorkInProgress.jsx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage />,
+    children: [
+      {
+        path: "colors",
+        element: <WorkInProgress />,
+      },
+      {
+        path: "typography",
+        element: <WorkInProgress />,
+      },
+      {
+        path: "spaces",
+        element: <WorkInProgress />,
+      },
+      {
+        path: "buttons",
+        element: <ButtonView />,
+      },
+      {
+        path: "inputs",
+        element: <WorkInProgress />,
+      },
+      {
+        path: "grid",
+        element: <WorkInProgress />,
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={router}>{/* <App /> */}</RouterProvider>
   </React.StrictMode>
 );

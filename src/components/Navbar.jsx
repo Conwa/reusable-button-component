@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="bottom-0 left-0 top-0 flex min-h-screen w-fit flex-col gap-4 bg-gray-200 px-12">
+    <div className="bottom-0 left-0 top-0 flex w-fit flex-col gap-4 bg-gray-200 px-12">
       <Link to={"/"}>
         {" "}
         <h1
