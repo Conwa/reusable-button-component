@@ -1,6 +1,4 @@
-import ButtonList from "../components/ButtonList";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import ButtonList from "../components/ButtonList/ButtonList";
 
 const ButtonView = () => {
   return (

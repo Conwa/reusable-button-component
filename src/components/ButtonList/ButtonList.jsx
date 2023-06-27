@@ -1,4 +1,4 @@
-import Logo from "../assets/heart.svg";
+import Logo from "../../assets/heart.svg";
 import Button from "./Button";
 
 const ButtonList = () => {
